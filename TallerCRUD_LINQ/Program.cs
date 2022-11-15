@@ -40,7 +40,7 @@ namespace TallerCRUD_LINQ
                         
 
                         Console.WriteLine("Escoja Accion a realizar:\n 1. Mostrar Empleados\n" +
-                            " 2. Mostrar empleado por Id\n 3. Crear empleado\n 4. Actualizar Empleado\n 5. Eliminar empleado x Id");
+                            " 2. Mostrar empleado por Id\n 3. Crear empleado\n 4. Actualizar Empleado\n 5. Eliminar empleado x Id\n");
                         
 
                         op2 = Convert.ToInt32(Console.ReadLine());
