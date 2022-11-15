@@ -11,7 +11,7 @@ namespace TallerCRUD_LINQ.Controllers
         {
             foreach (var item in Area)
             {
-                Console.WriteLine("Id: {0} Nombre: {1} ",
+                Console.WriteLine("Id: {0} || Nombre: {1}\n",
                     item.Id, item.Nombre);
             }
         }

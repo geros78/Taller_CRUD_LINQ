@@ -1,5 +1,6 @@
 ﻿using System;
 using TallerCRUD_LINQ.Controllers;
+using TallerCRUD_LINQ.Moduls;
 
 namespace TallerCRUD_LINQ
 {
@@ -22,23 +23,22 @@ namespace TallerCRUD_LINQ
             NominaController nc = new NominaController();
             EmpleadoController cemp = new EmpleadoController();
             AreaController ac = new AreaController();
-
+            menu m = new menu();
 
             do
             {
-                
+                Console.ForegroundColor = ConsoleColor.White;
 
-                Console.WriteLine("Escoja Modulo:\n 1. Empleados\n" +
-                    " 2. Areas\n 3. Nominas\n 4. Salir");
+                m.menuPrincipal();
                 
                 op = Convert.ToInt32(Console.ReadLine());
 
                 switch (op)
                 {
                     case 1:
+
                         
-                        
-                        
+
                         Console.WriteLine("Escoja Accion a realizar:\n 1. Mostrar Empleados\n" +
                             " 2. Mostrar empleado por Id\n 3. Crear empleado\n 4. Actualizar Empleado\n 5. Eliminar empleado x Id");
                         
@@ -148,6 +148,7 @@ namespace TallerCRUD_LINQ
 
                                 break;
 
+
                             default:
                                 Console.WriteLine("Funcion no valida");
 
@@ -163,7 +164,7 @@ namespace TallerCRUD_LINQ
                     case 2:
 
                         Console.WriteLine("Escoja Accion a realizar:\n 1. Mostrar Area\n" +
-                            " 2. Mostrar Area x Id\n 3. Crear Area\n 4. Actualizar Area\n 5. Eliminar Area x Id");
+                            " 2. Mostrar Area x Id\n 3. Crear Area\n 4. Actualizar Area\n 5. Eliminar Area x Id\n");
 
                         op2 = Convert.ToInt32(Console.ReadLine());
                         ac.MostrarArea();
@@ -248,7 +249,7 @@ namespace TallerCRUD_LINQ
                     case 3:
 
                         Console.WriteLine("Escoja Accion a realizar:\n 1. Mostrar Nomina\n" +
-                            " 2. Mostrar Nomina x Id\n 3. Crear Nomina\n 4. Actualizar Nomina\n 5. Eliminar Nomina x Id");
+                            " 2. Mostrar Nomina x Id\n 3. Crear Nomina\n 4. Actualizar Nomina\n 5. Eliminar Nomina x Id\n");
 
                         op2 = Convert.ToInt32(Console.ReadLine());
                         nc.LlenarLista();

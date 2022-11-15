@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "W7dyLLrq8OUW5jVfrhM0Rx2hbnkXWhIatHhmuLxoqpD0QV+L3mj48RWgnNHkr98ZxVBEotrFv74lweQDGxt41g==",
+  "dgSpecHash": "KY9khonnn4RlUOTWQ17ETuVw6wdaEerKdeVdj3qaNZrdEganiE9NV2ZeV2N/o95QNR65zlJtwtPKPLpPKuAfvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aotaizao\\source\\repos\\TallerCRUD_LINQ\\TallerCRUD_LINQ\\TallerCRUD_LINQ.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\alejo\\Source\\Repos\\Taller_CRUD_LINQ\\TallerCRUD_LINQ\\TallerCRUD_LINQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,7 +11,8 @@ namespace TallerCRUD_LINQ.Controllers
         {
             foreach(var item in Empleado)
             {
-                Console.WriteLine("Id: {0} Nombre: {1} Apellidos: {2} Direccion: {3} Telefono: {4} FechaIngreso: {5} IdArea: {6}",
+                Console.WriteLine("Id: {0} Nombre: {1} Apellidos: {2} Direccion: {3}\n" +
+                    " Telefono: {4} FechaIngreso: {5} IdArea: {6}\n",
                     item.Id, item.Nombre, item.Apellidos, item.Direccion, item.Telefono, item.FechaIngreso, item.IdArea);
             }
         }
